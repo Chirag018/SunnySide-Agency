@@ -5,6 +5,8 @@ body
 {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
     /* width: 100%;
   min-height: 100vh;
   overflow: hidden; */
@@ -370,39 +372,100 @@ body
     border-radius: 40px;
 }
 
+/* .boxes1{
+    display: flex;
+} */
 
+.boxe1 {
+        float: left;
+        width: 25%;
+        padding: 0px;
+        margin-top: 175%;
+}
 
-.boxes1
-{
-    /* border: 2px solid; */
-    position: absolute;
-    top: 290%;
-    left: -7%;
+/* .boxe2 {
+    float: left;
     width: 25%;
-    height: 100%;
-    /* color: white; */
-}
+    padding: 0px;
+    margin-top: 25%;
+} */
 
-.boxe1
-{
+/* .footer{
+    background-color: hsl(168, 34%, 41%);
+ */
+/* } */
+
+.footer h1{
+    width: 100%;
+    height: 40%;
+    /* padding: 0px; */
+    margin-top: 140%;
+    text-align: left;
+    right: 80%;
     position: relative;
-    float: left;
-    left: 15%;
-    max-width: 25%;
-    /* height: 120%; */
-    /* border: 1px solid hsl(31, 77%, 52%); */
-    border-radius: 10px;
-    /* background-color: hsl(31, 77%, 52%); */
 }
 
-.boxe1 img
-{
+.logo{
     /* position: absolute; */
-    position: relative;
+    left: 0;
+    width: 40%;
+    height: 40%;
+}
+
+.foot{
+
+    border: 1px solid;
+    width: 100%;
+    height: 80%;
+    left: 0%;
+    top: 438%;
+    position: absolute;
+    background-color: hsl(168, 34%, 41%);
+}
+
+.footr{
+    position: absolute;
+    bottom: 50%;
+    display: flex;
+    left: 20%;
+
+}
+
+.footr a{
     float: left;
-    margin-top: 280%;
-    height: 35%;
-    /* width: 190%; */
-    margin-left:20% ;
-    object-fit: cover;
+    word-spacing: 90%;
+    width: 33%;
+    padding: 0% 50%;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: larger;
+    color: hsl(167, 40%, 24%);
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.imagess
+{
+    position: absolute;
+    width: 15%;
+    left: 40%;
+    top: 20%;
+    color: hsl(167, 40%, 24%);
+    /* background-color: rgb(226, 16, 16); */
+}
+
+
+.logos img
+{
+    float: left;
+    position: relative;
+    width: 2%;
+    padding: 0% 2%;
+    left: 38%;
+}
+
+#imgs1
+{
+    margin-top: 28%;
 }
